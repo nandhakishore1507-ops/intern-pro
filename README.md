@@ -59,7 +59,7 @@ Through this project, I learned:
 - JavaScript functions.
 - DOM manipulation.
 - Git initialization and commits.
-- Uploading projects to GitHub.
+- Uploading projects to GitHub. "https://nandhakishore1507-ops.github.io/intern-pro/"
 
 ## 👨‍💻 Author
 
