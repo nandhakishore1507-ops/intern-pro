@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Internship</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>INTERNSHIP<span></span></h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#tasks">Tasks</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Welcome to Your <span>Internship Journey</span></h1>
+        <p>Learn, Build, Create and Grow with Frontend Development.</p>
+        <button onclick="showWelcome()">Get Started</button>
+    </section>
+
+    <section id="tasks">
+        <h2>Phase 1 - Learning Roadmap</h2>
+
+        <div class="container">
+
+            <div class="card">
+                <h3>01. Environment Setup</h3>
+                <p>Install VS Code and development tools.</p>
+            </div>
+
+            <div class="card">
+                <h3>02. HTML</h3>
+                <p>Learn HTML elements and page structure.</p>
+            </div>
+
+            <div class="card">
+                <h3>03. CSS</h3>
+                <p>Learn styling, layouts and responsive design.</p>
+            </div>
+
+            <div class="card">
+                <h3>04. JavaScript</h3>
+                <p>Learn functions, events and DOM manipulation.</p>
+            </div>
+
+            <div class="card">
+                <h3>05. Git & GitHub</h3>
+                <p>Manage and upload your projects.</p>
+            </div>
+
+            <div class="card">
+                <h3>06. Hello World</h3>
+                <p>Create your first frontend project.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About My Internship</h2>
+        <p>This website is created as part of my Frontend Development Internship.</p>
+
+        <button onclick="showMessage()">Click Me</button>
+
+        <h3 id="output"></h3>
+    </section>
+
+    <footer>
+        <p>© 2026 DevJourney | Frontend Internship</p>
+    </footer>
+
+    <!-- JavaScript starts here -->
+    <script>
+
+        // Welcome button function
+        function showWelcome() {
+            alert("Welcome to My Frontend Internship!");
+        }
+
+        // Message button function
+        function showMessage() {
+
+            let output = document.getElementById("output");
+
+            output.innerHTML =
+                "Hello World! My Internship Journey Begins!";
+
+        }
+
+        // Console message
+        console.log("Frontend Internship Project Loaded Successfully!");
+
+    </script>
+
+</body>
+</html>
